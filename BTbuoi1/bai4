@@ -1,0 +1,2 @@
+let re = document.getElementById("remove-me");
+re.parentNode.removeChild(elementToRemove);

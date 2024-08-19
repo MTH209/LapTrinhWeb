@@ -1,0 +1,12 @@
+let tableContainer = document.getElementById("table-container");
+let table = document.createElement("table");
+
+for (let i = 0; i < 3; i++) {
+    let row = document.createElement("tr");
+    for (let j = 0; j < 3; j++) {
+        let cell = document.createElement("td");
+        row.appendChild(cell);
+    }
+    table.appendChild(row);
+}
+tableContainer.appendChild(table);

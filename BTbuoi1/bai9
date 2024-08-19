@@ -1,0 +1,1 @@
+let divCount = document.querySelectorAll("div").length;

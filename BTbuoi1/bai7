@@ -1,0 +1,4 @@
+let bien = document.querySelectorAll("p");
+bien.forEach(function(p) {
+    p.innerText = "Updated paragraph";
+});

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quan ly sinh vien</title>
+    <link rel="stylesheet" href="qlsv.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Quan ly sinh vien</h2>
+        <form id="studentForm">
+            <input type="text" id="studentID" placeholder="Ma sinh vien" required>
+            <input type="text" id="studentName" placeholder="Ho va ten" required>
+            <select id="studentGender">
+                <option value="Nam">Nam</option>
+                <option value="Nữ">Nu</option>
+            </select>
+            <input type="date" id="studentDOB" required>
+            <input type="text" id="studentAddress" placeholder="Que quan" required>
+            <button type="button" onclick="addStudent()">
+                Them sinh vien
+            </button>
+        </form>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Mã Sinh Viên</th>
+                    <th>Họ Tên</th>
+                    <th>Giới Tính</th>
+                    <th>Ngày Sinh</th>
+                    <th>Quê Quán</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <script src="qlsv.js"></script>
+    
+</body>
+</html>
